@@ -21,7 +21,8 @@
         "unknown": "Unbekannter Befehl.",
         "unknown_near": "Unbekannter Befehl, meintest du {0}?",
         "unknown_sub": "Unbekannter Unterbefehl.",
-        "restricted": "Dieser Befehl ist {0}-Nutzern vorbehalten. Learn more at <https://notfab.net/LewdBot/Premium>"
+        "restricted": "Dieser Befehl ist {0}-Nutzern vorbehalten. Learn more at <https://notfab.net/LewdBot/Premium>",
+        "nsfw": "That command will only work on NSFW channels, please mark the channel as NSFW (on channel settings) before using it. #Be
       },
       "regex": {
         "number": "Das ist keine gültige Nummer.",
@@ -44,16 +45,19 @@
       }
     },
     "parts": {
-      "second": "Sekunde",
-      "seconds": "Sekunden",
-      "minute": "Minute",
-      "minutes": "Minuten",
-      "hour": "Stunde",
-      "hours": "Stunden",
-      "day": "Tag",
-      "days": "Tage",
+      "second": "{0} Sekunde",
+      "seconds": "{0} Sekunden",
+      "minute": "{0} Minute",
+      "minutes": "{0} Minuten",
+      "hour": "{0} Stunde",
+      "hours": "{0} Stunden",
+      "day": "{0} Tag",
+      "days": "{0} Tage",
       "enabled": "Aktiviert",
-      "disabled": "Deaktiviert"
+      "disabled": "Deaktiviert",
+      "width": "Breite",
+      "height": "Höhe",
+      "rating": "Bewertung"
     }
   },
   "economy": {
@@ -69,6 +73,15 @@
       "daily_already": "Du hast deine tägliche Portion Kekse schon bekommen, versuch es in {0} wieder."
     },
     "unknown_item": "Unbekannter Gegenstand"
+  },
+  "faq": {
+    "what_prefix": "Das Standardpräfix ist `L!`.",
+    "change_prefix": "Um das Präfix zu ändern kannst du entweder `L!setup` oder `L!prefix {desired prefix}` benutzen",
+    "how_use": "Du kannst den Bot benutzen, indem du das Präfix vor den Command schreibst: `L!help`",
+    "what_power": "Powernutzer oder Power user sind Leute, die für das Projekt LewdBot auf Patreon gespendet haben. Diese Beschränkung existiert aufgrund des hohen CPU-Verbrauchs.",
+    "change_volume": "Um die Lautstärke serverweit ändern zu können, musst du Power user sein. Bist du keiner kannst du die Lautstärke trotzdem anpassen, indem du den Bot rechtsklickst und den Lautstärkeregler anpasst.",
+    "how_nsfw": "Um NSFW-Commands nutzen zu können, musst du in einem NSFW-Kanal sein. Die Commands sind: `L!r34`, `L!hentai` und `L!iac`.",
+    "nsfw_bork": "NSFW-Features sind aufgrund ihrer API nicht funktionstüchtig. Versuche, `L!iac` zu benutzen, während wir an einer Lösung arbeiten."
   },
   "language": {
     "invalid": "'{0}' ist keine verfügbare Sprache.",
